@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Visby Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby Regular"),
+    url("../assets/fonts/visby/VisbyRegular.woff") format("woff");
+}
+@font-face {
+  font-family: "Dating Historia Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Dating Historia Regular"),
+    url("../assets/fonts/dating/DatingHistoria-Regular.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Visby Regular", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.section-home {
+  position: relative;
+  background: #ebdcd9;
+  height: 100vh;
+  z-index: 1;
+}
+
+.section-home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../assets/imagens/background-home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-info {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  margin-left: 10rem;
+  color: #5c5859;
+}
+
+.home-info .home-title {
+  font-family: "Dating Historia Regular";
+  font-size: 94px;
+  font-weight: 500;
+}
+.home-info .home-subtitle {
+  width: 50%;
+  font-size: 44px;
+}
+.home-info .home-paragrafh {
+  width: 68%;
+  font-size: 34px;
+}
+
+.home-img img {
+  height: 100vh;
+}
+
+.section-about {
+  position: relative;
+  background: #5c5859;
+  height: 100vh;
+  z-index: 1;
+}
+
+.section-about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../assets/imagens/background-about.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.04;
+  z-index: -1;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.about-title {
+  padding: 1rem;
+  border: 1px solid #ebdcd9;
+  border-radius: 30px;
+}
+.about-title h1 {
+  color: #ebdcd9;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 5rem;
+  gap: 5rem;
+}
+
+.about-info .about-info-borda-curva {
+  position: relative;
+  width: 290px;
+  height: 280px;
+  border: 2px solid #ebdcd9;
+  border-radius: 50% / 50% 50% 0 0;
+  text-align: center;
+  padding: 10px;
+  color: #ebdcd9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-info .about-info-borda-curva p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.about-info .about-info-borda-curva img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.about-info .about-info-borda-curva .imagem {
+  width: 60px;
+  height: auto;
+}
+.about-info .about-info-borda-curva .imagem2 {
+  width: 60px;
+  height: 90px;
+}
+.about-info .about-info-borda-curva .imagem3 {
+  width: 84px;
+  height: 88px;
+}
+.about-info .about-info-borda-curva .imagem4 {
+  width: 40px;
+  height: 90px;
+}
