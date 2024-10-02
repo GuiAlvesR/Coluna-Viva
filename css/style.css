@@ -190,3 +190,65 @@ html {
   width: 40px;
   height: 90px;
 }
+
+.section-services {
+  position: relative;
+  background: #f0ebe1;
+  height: 101vh;
+  z-index: 1;
+}
+
+.section-services::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../assets/imagens/background-services.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.17;
+  z-index: -1;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-info {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 20px;
+  color: #5c5859;
+  font-size: 26px;
+}
+
+.services-img {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+.services-img img {
+  width: auto;
+  height: 100vh;
+}
+
+.services-imagem-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
