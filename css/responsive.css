@@ -196,11 +196,11 @@
   }
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
   .about-info {
     padding: 2px;
   }
-}
+} */
 
 @media (max-width: 350px) {
   .home-img img {
