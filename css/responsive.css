@@ -150,7 +150,7 @@
   }
 
   .about-info {
-    padding-top: 2rem;
+    padding-top: 1rem;
     flex-direction: column;
   }
 
@@ -195,12 +195,6 @@
     margin-top: 10px;
   }
 }
-
-/* @media (max-width: 390px) {
-  .about-info {
-    padding: 2px;
-  }
-} */
 
 @media (max-width: 350px) {
   .home-img img {
