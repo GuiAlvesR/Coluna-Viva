@@ -144,6 +144,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   padding-top: 5rem;
   gap: 5rem;
 }
@@ -244,6 +245,11 @@ html {
   height: 100vh;
 }
 
+.services-imagem1 {
+  width: auto;
+  height: 100vh;
+}
+
 .services-imagem-2 {
   position: absolute;
   top: 0;
@@ -251,4 +257,5 @@ html {
   right: 0;
   bottom: 0;
   z-index: -1;
+  object-fit: cover;
 }

@@ -3,9 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coluna Viva - Ale Sanguitão</title>
+
+    <meta
+      property="og:title"
+      content="Contato - Fisioterapeuta Ale Sanguitão"
+    />
+    <meta
+      property="og:description"
+      content="Entre em contato com a Fisioterapeuta Ale Sanguitão para agendamentos."
+    />
+    <meta
+      name="description"
+      content="Fisioterapeuta Ale Sanguitão - Especialista em Reeducação Postural Global (RPG)"
+    />
+    <meta name="keywords" content="Fisioterapeuta, Ale Sanguitão" />
+    <meta name="author" content="Ale Sanguitão" />
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest"> -->
 
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>Coluna Viva - Ale Sanguitão</title>
   </head>
 
   <body>
@@ -26,7 +49,17 @@
             </div>
           </div>
           <div class="home-img">
-            <img src="./assets/imagens/Ale-Sanguao.png" alt="Ale Sanguão" />
+            <picture>
+              <source
+                media="(max-width: 548px)"
+                srcset="./assets/imagens/Ale-Sanguao-1266.png"
+              />
+              <source
+                media="(max-width: 549px)"
+                srcset="./assets/imagens/Ale-Sanguao.png.jpg"
+              />
+              <img src="./assets/imagens/Ale-Sanguao.png" alt="Imagem" />
+            </picture>
           </div>
         </div>
       </section>
@@ -94,6 +127,7 @@
               alt="Ale Sanguão"
             />
             <img
+            class="services-imagem1"
               src="./assets/imagens/Ale-Postura-transformed.png"
               alt="Ale Sanguão"
             />
@@ -125,5 +159,8 @@
         </div>
       </section>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
