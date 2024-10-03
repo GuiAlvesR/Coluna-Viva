@@ -151,7 +151,7 @@
 
   .about-info {
     padding-top: 1rem;
-    /* flex-direction: column; */
+    flex-direction: column;
   }
 
   .about-title {
