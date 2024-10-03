@@ -52,31 +52,29 @@
     gap: 3rem;
   }
 
-  .content {
-    width: 100%;
-    gap: 20px;
-    font-size: 24px;
+  /* .services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  /* .services-img {
-    width: 50%;
-    position: relative;
-    height: 100vh;
-    z-index: 1;
-  }
-
-  .services-imagem1 {
-    width: auto;
-    height: 100vh;
-  } */
-
-  /* .services-img {
+  .services-img {
     width: 100%;
-    position: relative;
     height: auto;
-    z-index: 1;
-  } */
+  }
 
+  .services-imagem-2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .section-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  } */
 }
 
 @media (max-width: 768px) {
