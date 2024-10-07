@@ -5,6 +5,7 @@
   src: local("Visby Regular"),
     url("../assets/fonts/visby/VisbyRegular.woff") format("woff");
 }
+
 @font-face {
   font-family: "Dating Historia Regular";
   font-style: normal;
@@ -87,10 +88,12 @@ html {
   font-size: 94px;
   font-weight: 500;
 }
+
 .home-info .home-subtitle {
   width: 50%;
   font-size: 44px;
 }
+
 .home-info .home-paragrafh {
   width: 68%;
   font-size: 34px;
@@ -135,6 +138,7 @@ html {
   border: 1px solid #ebdcd9;
   border-radius: 30px;
 }
+
 .about-title h1 {
   color: #ebdcd9;
 }
@@ -179,14 +183,17 @@ html {
   width: 60px;
   height: auto;
 }
+
 .about-info .about-info-borda-curva .imagem2 {
   width: 60px;
   height: 90px;
 }
+
 .about-info .about-info-borda-curva .imagem3 {
   width: 84px;
   height: 88px;
 }
+
 .about-info .about-info-borda-curva .imagem4 {
   width: 40px;
   height: 90px;
@@ -221,6 +228,9 @@ html {
 }
 
 .services-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
