@@ -325,10 +325,16 @@ html {
   cursor: pointer;
 }
 
+.faq:hover .faq-number {
+  opacity: 1;
+}
+
 .faq-number {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 500;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
 }
 
 .faq-paragrafh {
