@@ -264,3 +264,95 @@ html {
   z-index: -1;
   object-fit: cover;
 }
+
+.section-faqs {
+  background: #5c5859;
+  height: 80vh;
+  padding: 5rem 0 5rem 0;
+}
+
+.faqs {
+  max-width: 1256px;
+  margin: 0 auto 0 auto;
+  padding: 0 1.25rem 0 1.25rem;
+}
+
+.faqs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ebdcd9;
+}
+
+.faq-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.faq-title span {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(235 220 217 / var(--tw-text-opacity));
+}
+
+.faq-title h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-align: start;
+  --tw-text-opacity: 1;
+  color: rgb(235 220 217 / var(--tw-text-opacity));
+  font-weight: 500;
+}
+
+.faq-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(235, 220, 217, 0.5);
+  padding: 1rem 0 1rem 0;
+  width: 100%;
+  gap: 2rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-number {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+.faq-paragrafh {
+  text-align: start;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+/* .section-inscripton {
+  background: #5c5859;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inscripton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.inscripton button{
+
+} */
