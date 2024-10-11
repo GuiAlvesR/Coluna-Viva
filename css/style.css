@@ -317,7 +317,7 @@ html {
 .faq {
   display: flex;
   border-top: 1px solid rgba(235, 220, 217, 0.5);
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0 0.5rem 0;
   width: 100%;
   gap: 2rem;
   align-items: center;
@@ -376,22 +376,25 @@ html {
 }
 
 .faq-response {
-  display: none;
   font-size: 16px;
   font-weight: 400;
-  opacity: 0.9;
-  padding: 0.5rem 1rem 0.5rem 2rem;
+  opacity: 0;
+  padding: 0.5rem 0rem 0.2rem 0rem;
 
-  /* max-height: 0;
+  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease;
-  display: block; */
+  visibility: hidden;
+  transition: max-height 0.5s ease, opacity 0.3s ease, visibility 0s 0.5s,
+    padding 0.5s;
 }
 
 .faq-p {
-  display: block;
-  /* max-height: 500px;
-  transition: max-height 3s ease; */
+  max-height: 500px;
+  opacity: 0.9;
+  visibility: visible;
+  transition: max-height 3s ease, opacity 0.3s ease, visibility 0s 0s,
+    padding 0.8s;
+  padding: 1rem 1rem 1rem 2rem;
 }
 
 /* #p4{
