@@ -150,6 +150,14 @@
   .faq-question {
     font-size: 1rem;
   }
+
+  .faq {
+    outline: none;
+  }
+
+  .faq:focus {
+    outline: none;
+  }
 }
 
 @media (max-width: 548px) {

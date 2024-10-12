@@ -320,11 +320,6 @@ html {
   gap: 2rem;
   align-items: center;
   cursor: pointer;
-  outline: none;
-}
-
-.faq:focus {
-  outline: none;
 }
 
 .faq:hover .faq-number {
