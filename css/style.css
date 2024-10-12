@@ -24,7 +24,11 @@
 html {
   scroll-behavior: smooth;
   font-family: "Visby Regular", sans-serif;
+}
+
+body {
   user-select: none;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
