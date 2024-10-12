@@ -26,12 +26,11 @@
     gap: 3rem;
   }
 
-  .content {
-    justify-content: center;
+  .section-services {
+    display: flex;
     align-items: center;
-    width: 100%;
-    text-align: center;
-    font-size: 22px;
+    justify-content: center;
+    height: auto;
   }
 
   .services {
@@ -40,15 +39,16 @@
     justify-content: center;
   }
 
-  .services-img img {
-    height: 60vh;
+  .content {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
   }
 
-  .section-services {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
+  .services-img img {
+    height: 60vh;
   }
 }
 
@@ -218,6 +218,18 @@
     height: 55px;
     margin-bottom: 3px;
     margin-top: 10px;
+  }
+
+  .services-info {
+    margin: 50px 0 50px 0;
+  }
+
+  .content {
+    font-size: 18px;
+  }
+
+  .services-img img {
+    height: 40vh;
   }
 }
 
