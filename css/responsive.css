@@ -148,6 +148,14 @@
   .faq-info {
     width: 100%;
   }
+
+  .faq-number {
+    font-size: 1.125rem;
+  }
+
+  .faq-question {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 548px) {
