@@ -15,3 +15,18 @@ function p(num, src) {
     img.classList.add("seta");
   }
 }
+
+window.addEventListener("resize", changeAosAnimation);
+window.addEventListener("load", changeAosAnimation);
+
+function changeAosAnimation() {
+  let aos = document.querySelector(".section-services .content");
+
+  if (window.innerWidth <= 768) {
+    aos.removeAttribute("data-aos");
+  } else {
+    aos.setAttribute("data-aos", "fade-right");
+  }
+
+  AOS.init();
+}
