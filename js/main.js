@@ -28,5 +28,5 @@ function changeAosAnimation() {
     aos.setAttribute("data-aos", "fade-right");
   }
 
-  AOS.init();
+  AOS.refresh();
 }
