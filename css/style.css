@@ -412,8 +412,56 @@ html {
   align-items: center;
   justify-content: center;
   width: 100%;
+} */
+
+.section-inscripton {
+  background: #5c5859;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  color: #ebdcd9;
 }
 
-.inscripton button{
+.inscripton-title h2 {
+  font-size: 36px; /* Tamanho maior para o título principal */
+  color: #ebdcd9; /* Cor clara para contraste com o fundo */
+  margin-bottom: 10px; /* Espaçamento entre o h2 e o h3 */
+}
 
-} */
+.inscripton-title h3 {
+  font-size: 28px;
+  line-height: 1.4;
+  color: #ebdcd9;
+  margin-bottom: 20px;
+}
+
+.inscripton-button {
+  display: flex;
+  justify-content: center;
+}
+
+.inscripton-button button {
+  background-color: #ebdcd9;
+  color: #5c5859;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 28px;
+  border: 2px solid #ebdcd9;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.inscripton-button button:hover {
+  background-color: #5c5859;
+  color: #ebdcd9;
+  transform: scale(1.05);
+}
+
+.inscripton-button button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(92, 88, 89, 0.5);
+}
