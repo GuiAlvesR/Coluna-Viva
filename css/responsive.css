@@ -48,7 +48,7 @@
   }
 
   .services-img img {
-    height: 60vh;
+    height: 80vh;
   }
 }
 
@@ -150,13 +150,6 @@
   .faq-question {
     font-size: 1rem;
   }
-
-  /* .faq:focus,
-  .faq:active {
-    outline: none;
-    box-shadow: none;
-    -webkit-tap-highlight-color: transparent;
-  } */
 }
 
 @media (max-width: 548px) {
@@ -236,7 +229,7 @@
   }
 
   .services-img img {
-    height: 40vh;
+    height: 60vh;
   }
 }
 
