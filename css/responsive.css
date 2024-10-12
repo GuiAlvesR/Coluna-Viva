@@ -151,12 +151,11 @@
     font-size: 1rem;
   }
 
-  .faq {
+  .faq:focus,
+  .faq:active {
     outline: none;
-  }
-
-  .faq:focus {
-    outline: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 
