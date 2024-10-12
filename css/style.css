@@ -399,21 +399,6 @@ html {
   flex-direction: column;
 }
 
-/* .section-inscripton {
-  background: #5c5859;
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.inscripton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-} */
-
 .section-inscripton {
   background: #5c5859;
   height: 50vh;
@@ -426,9 +411,9 @@ html {
 }
 
 .inscripton-title h2 {
-  font-size: 36px; /* Tamanho maior para o título principal */
-  color: #ebdcd9; /* Cor clara para contraste com o fundo */
-  margin-bottom: 10px; /* Espaçamento entre o h2 e o h3 */
+  font-size: 36px; 
+  color: #ebdcd9; 
+  margin-bottom: 10px;
 }
 
 .inscripton-title h3 {
