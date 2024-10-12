@@ -23,6 +23,7 @@
 html {
   scroll-behavior: smooth;
   font-family: "Visby Regular", sans-serif;
+  user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -411,8 +412,8 @@ html {
 }
 
 .inscripton-title h2 {
-  font-size: 36px; 
-  color: #ebdcd9; 
+  font-size: 36px;
+  color: #ebdcd9;
   margin-bottom: 10px;
 }
 
