@@ -129,6 +129,25 @@
     margin-bottom: 0px;
     margin-top: 10px;
   }
+
+  .faqs-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .faq-title {
+    gap: 0;
+  }
+
+  .faq-title h2 {
+    font-size: 2rem;
+  }
+
+  .faq-info {
+    width: 100%;
+  }
 }
 
 @media (max-width: 548px) {
