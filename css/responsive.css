@@ -42,13 +42,13 @@
   .content {
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 95%;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .services-img img {
-    height: 80vh;
+    height: 70vh;
   }
 }
 
@@ -126,6 +126,10 @@
     height: 60px;
     margin-bottom: 0px;
     margin-top: 10px;
+  }
+
+  .services-info {
+    margin: 50px 0 50px 0;
   }
 
   .faqs-container {
@@ -232,12 +236,10 @@
     overflow: hidden;
   }
 
-  .services-info {
-    margin: 50px 0 50px 0;
-  }
-
   .content {
-    font-size: 18px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .services-img img {
@@ -251,6 +253,6 @@
   }
 
   .content {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
