@@ -99,6 +99,10 @@
     margin: 5px 0;
   }
 
+  .about-info .about-info-borda-curva .paragrafh3 {
+    font-size: 18px;
+  }
+
   .about-info .about-info-borda-curva .imagem {
     width: 60px;
     height: auto;
@@ -195,6 +199,10 @@
     margin: 0;
   }
 
+  .about-info .about-info-borda-curva .paragrafh3 {
+    font-size: 12px;
+  }
+
   .about-info .about-info-borda-curva .imagem {
     width: 40px;
     height: auto;
@@ -220,6 +228,10 @@
     margin-top: 10px;
   }
 
+  .services {
+    overflow: hidden;
+  }
+
   .services-info {
     margin: 50px 0 50px 0;
   }
@@ -236,5 +248,9 @@
 @media (max-width: 350px) {
   .home-img img {
     height: 50vh;
+  }
+
+  .content {
+    font-size: 16px;
   }
 }
