@@ -39,6 +39,10 @@
     justify-content: center;
   }
 
+  .services-info {
+    margin: 50px 0 50px 0;
+  }
+
   .content {
     justify-content: center;
     align-items: center;
