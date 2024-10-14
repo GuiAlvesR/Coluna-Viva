@@ -437,26 +437,26 @@ body {
 }
 
 .section-inscripton {
-  background: #5c5859;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   text-align: center;
-  color: #ebdcd9;
+  background: #ebdcd9;
+  color: #5c5859;
 }
 
 .inscripton-title h2 {
   font-size: 36px;
-  color: #ebdcd9;
+  color: #5c5859;
   margin-bottom: 10px;
 }
 
 .inscripton-title h3 {
   font-size: 28px;
   line-height: 1.4;
-  color: #ebdcd9;
+  color: #5c5859;
   margin-bottom: 20px;
 }
 
@@ -466,24 +466,25 @@ body {
 }
 
 .inscripton-button button {
-  background-color: #ebdcd9;
-  color: #5c5859;
+  background-color: #5c5859;
+  color: #ebdcd9;
+  font-family: "Visby Regular", sans-serif;
   font-size: 18px;
   font-weight: 600;
   padding: 12px 28px;
-  border: 2px solid #ebdcd9;
+  border: 2px solid #5c5859;
   border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
 .inscripton-button button:hover {
-  background-color: #5c5859;
-  color: #ebdcd9;
+  background-color: #ebdcd9;
+  color: #5c5859;
   transform: scale(1.05);
 }
 
 .inscripton-button button:focus {
   outline: none;
-  box-shadow: 0 0 10px rgba(92, 88, 89, 0.5);
+  box-shadow: 0 0 10px rgba(235, 220, 217, 0.5);
 }
