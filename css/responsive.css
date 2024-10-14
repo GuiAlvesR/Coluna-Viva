@@ -270,7 +270,9 @@
     font-size: 20px;
   }
 
-
+  .inscripton-button button {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 350px) {
