@@ -144,7 +144,7 @@
   }
 
   .faq-title {
-    gap: 0;
+    gap: 20px;
   }
 
   .faq-title h2 {
@@ -258,5 +258,13 @@
 
   .content {
     font-size: 16px;
+  }
+
+  .home-img img {
+    height: 40vh;
+  }
+
+  .services-img img {
+    height: 40vh;
   }
 }

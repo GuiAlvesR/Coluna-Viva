@@ -293,6 +293,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 1rem;
 }
 
@@ -406,6 +407,33 @@ body {
 #p4 {
   display: flex;
   flex-direction: column;
+}
+
+.faq-title .faq-duvida {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq-duvida p:nth-child(3) {
+  font-size: 14px;
+}
+
+.faq-title .faq-duvida button {
+  background-color: #5c5859;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.faq-title .faq-duvida button:hover {
+  background-color: #ffffff;
+  color: #5c5859;
 }
 
 .section-inscripton {
