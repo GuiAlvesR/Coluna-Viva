@@ -24,6 +24,7 @@
 html {
   scroll-behavior: smooth;
   font-family: "Visby Regular", sans-serif;
+  overflow-x: hidden;
 }
 
 body {
@@ -422,8 +423,8 @@ body {
 
 .faq-title .faq-duvida button {
   background-color: #5c5859;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  color: #ebdcd9;
+  border: 2px solid #ebdcd9;
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
@@ -432,7 +433,7 @@ body {
 }
 
 .faq-title .faq-duvida button:hover {
-  background-color: #ffffff;
+  background-color: #ebdcd9;
   color: #5c5859;
 }
 
