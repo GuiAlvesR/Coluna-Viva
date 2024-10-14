@@ -24,11 +24,11 @@
 html {
   scroll-behavior: smooth;
   font-family: "Visby Regular", sans-serif;
-  overflow-x: hidden;
 }
 
 body {
   user-select: none;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -438,6 +438,7 @@ body {
 }
 
 .section-inscripton {
+  position: relative;
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -446,6 +447,22 @@ body {
   text-align: center;
   background: #ebdcd9;
   color: #5c5859;
+  z-index: 1;
+}
+
+.section-inscripton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../assets/imagens/background-inscription.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.06;
+  z-index: -1;
 }
 
 .inscripton-title h2 {
