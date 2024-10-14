@@ -417,8 +417,11 @@ body {
   gap: 1rem;
 }
 
-.faq-duvida p:nth-child(3) {
-  font-size: 14px;
+.faq-duvida p:nth-child(1) {
+  font-size: 18px;
+}
+.faq-duvida p:nth-child(2) {
+  font-size: 16px;
 }
 
 .faq-title .faq-duvida button {
