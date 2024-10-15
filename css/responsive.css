@@ -98,6 +98,17 @@
     padding: 8px;
   }
 
+  .about-info .about-info-borda-curva:nth-child(3) {
+    width: 250px;
+    height: 240px;
+    padding: 8px;
+  }
+
+  .about-info .about-info-borda-curva:nth-child(4) {
+    height: 240px;
+    padding: 8px;
+  }
+
   .about-info .about-info-borda-curva p {
     font-size: 19px;
     margin: 5px 0;
@@ -214,6 +225,18 @@
     padding: 0;
   }
 
+  .about-info .about-info-borda-curva:nth-child(3) {
+    width: 170px;
+    height: 160px;
+    padding: 0;
+  }
+
+  .about-info .about-info-borda-curva:nth-child(4) {
+    width: 180px;
+    height: 170px;
+    padding: 0;
+  }
+
   .about-info .about-info-borda-curva p {
     font-size: 14px;
     margin: 0;
@@ -226,7 +249,7 @@
   .about-info .about-info-borda-curva .imagem {
     width: 40px;
     height: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   .about-info .about-info-borda-curva .imagem2 {
