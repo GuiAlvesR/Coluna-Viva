@@ -13,6 +13,13 @@
   src: local("Dating Historia Regular"),
     url("../assets/fonts/dating/DatingHistoria-Regular.woff") format("woff");
 }
+@font-face {
+  font-family: "Frontis Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Frontis Bold Italic"),
+    url("../assets/fonts/frontis/Frontis-BoldItalic.woff") format("woff");
+}
 
 * {
   margin: 0;
@@ -96,12 +103,12 @@ body {
 }
 
 .home-info .home-subtitle {
-  width: 50%;
+  width: 60%;
   font-size: 44px;
 }
 
 .home-info .home-paragrafh {
-  width: 68%;
+  width: 70%;
   font-size: 34px;
 }
 
@@ -441,7 +448,7 @@ body {
   background-color: #ebdcd9;
   color: #5c5859;
 }
-
+/* 
 .section-inscripton {
   position: relative;
   height: 50vh;
@@ -510,4 +517,134 @@ body {
 .inscripton-button button:focus {
   outline: none;
   box-shadow: 0 0 10px rgba(235, 220, 217, 0.5);
+} */
+
+.section-inscripton {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px 100px 200px;
+  background: #f0e6d6;
+  z-index: 1;
+}
+
+.section-inscripton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../assets/imagens/background-inscription.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.inscripton-info {
+  background: #5c5859;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.inscripton-info-header {
+  width: 80%;
+}
+
+.inscripton-info .inscripton-info-header .inscripton-info-header-title {
+  font-family: "Dating Historia Regular";
+  font-size: 74px;
+  font-weight: 500;
+}
+
+.inscripton-info .inscripton-info-header .inscripton-info-header-subtitle {
+  font-size: 64px;
+  font-family: "Frontis Bold Italic", sans-serif;
+}
+
+.inscripton-info .inscripton-info-header .inscripton-info-header-paragrafh {
+  font-size: 17px;
+}
+
+.inscripton-oferta {
+  background: #ebdcd9;
+  color: #5c5859;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.oferta-conteudo {
+  text-align: center;
+}
+
+.oferta-investimento-titulo {
+  font-size: 24px;
+  color: #5c5859;
+  font-weight: 400;
+}
+
+.oferta-preco-antigo {
+  font-size: 36px;
+  color: #5c5859;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.oferta-preco-novo {
+  font-size: 48px;
+  color: #5c5859;
+  font-weight: bold;
+}
+
+.oferta-desconto-texto {
+  font-size: 24px;
+  color: #5c5859;
+}
+
+.oferta-preco-novo span {
+  font-size: 64px;
+  color: #5c5859;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.inscripton-oferta button {
+  background-color: #5c5859;
+  color: #ebdcd9;
+  font-size: 24px;
+  font-family: "Visby Regular", sans-serif;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff,
+    0 0 80px #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.inscripton-oferta button:hover {
+  box-shadow: 0 0 20px #ebdcd9, 0 0 40px #ebdcd9, 0 0 60px #ebdcd9,
+    0 0 100px #ebdcd9;
+  transform: scale(1.03);
 }

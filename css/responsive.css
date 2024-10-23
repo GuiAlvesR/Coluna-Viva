@@ -54,6 +54,18 @@
   .services-img img {
     height: 70vh;
   }
+
+  .section-inscripton {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+    background: #f0e6d6;
+    z-index: 1;
+  }
 }
 
 @media (max-width: 768px) {
