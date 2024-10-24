@@ -56,15 +56,7 @@
   }
 
   .section-inscripton {
-    position: relative;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 50px 100px 50px 100px;
-    background: #f0e6d6;
-    z-index: 1;
   }
 }
 
@@ -312,130 +304,56 @@
   .services-img img {
     height: 60vh;
   }
-/* 
-  .section-inscripton {
-    position: relative;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 200px 100px 200px;
-    background: #f0e6d6;
-    z-index: 1;
-  }
 
-  .section-inscripton::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url(../assets/imagens/background-inscription.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.05;
-    z-index: -1;
+  .section-inscripton {
+    padding: 25px 75px 25px 75px;
   }
 
   .inscripton-info {
-    background: #5c5859;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 40px;
-  }
-
-  .inscripton-info-header {
-    width: 80%;
+    padding: 0;
   }
 
   .inscripton-info .inscripton-info-header .inscripton-info-header-title {
-    font-family: "Dating Historia Regular";
-    font-size: 74px;
-    font-weight: 500;
+    font-size: 54px;
   }
 
   .inscripton-info .inscripton-info-header .inscripton-info-header-subtitle {
-    font-size: 64px;
-    font-family: "Frontis Bold Italic", sans-serif;
+    font-size: 44px;
   }
 
   .inscripton-info .inscripton-info-header .inscripton-info-header-paragrafh {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .inscripton-oferta {
-    background: #ebdcd9;
-    color: #5c5859;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 40px;
-  }
-
-  .oferta-conteudo {
-    text-align: center;
+    padding: 10px;
   }
 
   .oferta-investimento-titulo {
-    font-size: 24px;
-    color: #5c5859;
-    font-weight: 400;
+    font-size: 20px;
   }
 
   .oferta-preco-antigo {
-    font-size: 36px;
-    color: #5c5859;
-    font-weight: bold;
-    text-decoration: line-through;
+    font-size: 30px;
   }
 
   .oferta-preco-novo {
-    font-size: 48px;
-    color: #5c5859;
-    font-weight: bold;
+    font-size: 40px;
   }
 
   .oferta-desconto-texto {
-    font-size: 24px;
-    color: #5c5859;
+    font-size: 20px;
   }
 
   .oferta-preco-novo span {
-    font-size: 64px;
-    color: #5c5859;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 50px;
   }
 
   .inscripton-oferta button {
-    background-color: #5c5859;
-    color: #ebdcd9;
-    font-size: 24px;
-    font-family: "Visby Regular", sans-serif;
-    font-weight: bold;
-    padding: 15px 30px;
-    margin-top: 30px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff,
-      0 0 80px #ffffff;
-    transition: all 0.3s ease-in-out;
-  } */
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
 
   h2 {
     font-size: 18px;

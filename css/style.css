@@ -639,7 +639,6 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  text-transform: uppercase;
   letter-spacing: 2px;
   box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff,
     0 0 80px #ffffff;
