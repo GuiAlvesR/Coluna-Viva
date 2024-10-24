@@ -198,6 +198,11 @@
     font-size: 54px;
   }
 
+  .inscripton-oferta button {
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff,
+      0 0 60px #ffffff;
+  }
+
   h2 {
     font-size: 20px;
   }
@@ -367,7 +372,7 @@
 @media (max-width: 465px) {
   .section-inscripton {
     padding: 10px 20px 10px 20px;
-}
+  }
 }
 
 @media (max-width: 350px) {
