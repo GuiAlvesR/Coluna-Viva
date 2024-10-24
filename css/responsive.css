@@ -306,7 +306,7 @@
   }
 
   .section-inscripton {
-    padding: 25px 75px 25px 75px;
+    padding: 25px 50px 25px 50px;
   }
 
   .inscripton-info {
@@ -338,7 +338,7 @@
   }
 
   .oferta-preco-novo {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .oferta-desconto-texto {
@@ -362,6 +362,12 @@
   #timer {
     font-size: 18px;
   }
+}
+
+@media (max-width: 465px) {
+  .section-inscripton {
+    padding: 10px 20px 10px 20px;
+}
 }
 
 @media (max-width: 350px) {
