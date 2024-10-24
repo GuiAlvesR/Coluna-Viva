@@ -30,3 +30,46 @@ function changeAosAnimation() {
 
   AOS.refresh();
 }
+
+let totalTime = 40 * 60;
+
+function formatTime(seconds) {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+}
+
+let timeLeft = localStorage.getItem('timeLeft') ? parseInt(localStorage.getItem('timeLeft')) : totalTime;
+
+function updateTimer() {
+  const timerDisplay = document.getElementById('timer');
+  timerDisplay.textContent = formatTime(timeLeft);
+
+  localStorage.setItem('timeLeft', timeLeft);
+
+  if (timeLeft > 0) {
+    timeLeft--;
+  } else {
+    clearInterval(timerInterval);
+  }
+}
+const timerInterval = setInterval(updateTimer, 1000);
+
+updateTimer();
+
+const timerBar = document.getElementById('timer-bar');
+const faqsSection = document.querySelector('.section-faqs');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      timerBar.classList.add('visible');
+    } else {
+      timerBar.classList.remove('visible');
+    }
+  });
+}, {
+  threshold: 0.1
+});
+
+observer.observe(faqsSection);
