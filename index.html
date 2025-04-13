@@ -36,6 +36,11 @@
     />
     <link rel="manifest" href="favicon/site.webmanifest" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -86,7 +91,11 @@
                 media="(max-width: 769px)"
                 srcset="./assets/imagens/Ale-Sanguao.png.jpg"
               />
-              <img src="./assets/imagens/Ale-Sanguao.png" alt="Imagem" />
+              <img
+                src="./assets/imagens/Ale-Sanguao.png"
+                alt="Imagem"
+                loading="lazy"
+              />
             </picture>
           </div>
         </div>
@@ -112,6 +121,7 @@
                 class="imagem"
                 src="./assets/imagens/icone1.png"
                 alt="Ícone"
+                loading="lazy"
               />
               <p>
                 ASSINATURA <strong>EXCLUSIVA</strong> DE AULAS DETALHADAS PARA
@@ -128,6 +138,7 @@
                 class="imagem2"
                 src="./assets/imagens/icone2.png"
                 alt="Ícone"
+                loading="lazy"
               />
               <p>
                 TER UMA IMAGEM DE <strong>ELEGÂNCIA,</strong> E AUMENTAR A SUA
@@ -145,6 +156,7 @@
                 class="imagem3"
                 src="./assets/imagens/icone3.png"
                 alt="Ícone"
+                loading="lazy"
               />
               <p class="paragrafh3">
                 ALÍVIO DE <strong>TODAS AS DORES</strong> NO SEU CORPO, MELHORA
@@ -163,6 +175,7 @@
                 class="imagem4"
                 src="./assets/imagens/icone4.png"
                 alt="Ícone"
+                loading="lazy"
               />
               <p>
                 TERÁ TRANSFORMAÇÃO FÍSICA <strong>NOTÁVEL</strong>, FOCADA NA
@@ -186,11 +199,13 @@
               class="services-imagem-2"
               src="./assets/imagens/planta.png"
               alt="Ale Sanguão"
+              loading="lazy"
             />
             <img
               class="services-imagem1"
               src="./assets/imagens/Ale-Postura.png"
               alt="Ale Sanguão"
+              loading="lazy"
             />
           </div>
           <div class="services-info">
@@ -260,6 +275,7 @@
                     <img
                       src="./assets/imagens/seta-para-baixo.png"
                       alt="Seta"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -277,6 +293,7 @@
                     <img
                       src="./assets/imagens/seta-para-baixo.png"
                       alt="Seta"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -294,6 +311,7 @@
                     <img
                       src="./assets/imagens/seta-para-baixo.png"
                       alt="Seta"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -315,6 +333,7 @@
                     <img
                       src="./assets/imagens/seta-para-baixo.png"
                       alt="Seta"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -336,6 +355,7 @@
                     <img
                       src="./assets/imagens/seta-para-baixo.png"
                       alt="Seta"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -361,16 +381,80 @@
           </div>
         </div>
 
-        <div class="inscripton-oferta">
-          <div class="oferta-conteudo">
-            <span class="oferta-investimento-titulo">Investimento de</span>
-            <p class="oferta-preco-antigo">R$ <span>79,90</span> /mensais</p>
-            <p class="oferta-desconto-texto">Por</p>
-            <p class="oferta-preco-novo">R$ <span>49,90</span> /mensais</p>
-            <a href="#" target="_blank">
-              <button>APROVEITAR OPORTUNIDADE</button>
-            </a>
+        <div>
+          <h1>PLANOS</h1>
+        </div>
+      </section>
+
+      <section class="section-inscripton-ofertas">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="inscripton-oferta">
+                <div class="oferta-conteudo">
+                  <span class="oferta-investimento-titulo"
+                    >Investimento de</span
+                  >
+                  <p class="oferta-preco-novo">R$ <span>49,90</span> /Anual</p>
+                  <a href="#" target="_blank">
+                    <button>Garanta seu Plano Anual</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="inscripton-oferta">
+                <div class="oferta-conteudo">
+                  <span class="oferta-investimento-titulo"
+                    >Investimento de</span
+                  >
+                  <p class="oferta-preco-novo">
+                    R$ <span>69,90</span> /Semestrais
+                  </p>
+                  <a href="#" target="_blank">
+                    <button>Assine o Plano Semestral</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="inscripton-oferta">
+                <div class="oferta-conteudo">
+                  <span class="oferta-investimento-titulo"
+                    >Investimento de</span
+                  >
+                  <p class="oferta-preco-novo">
+                    R$ <span>89,90</span> /Trimestrais
+                  </p>
+                  <a href="#" target="_blank">
+                    <button>Adquira o Plano Trimestral</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="inscripton-oferta">
+                <div class="oferta-conteudo">
+                  <span class="oferta-investimento-titulo"
+                    >Investimento de</span
+                  >
+                  <p class="oferta-preco-novo">
+                    R$ <span>99,90</span> /mensais
+                  </p>
+                  <a href="#" target="_blank">
+                    <button>Inicie com o Plano Mensal</button>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </section>
 
@@ -379,6 +463,7 @@
       </div>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
   </body>
