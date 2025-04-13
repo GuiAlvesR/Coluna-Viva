@@ -60,7 +60,7 @@ const timerInterval = setInterval(updateTimer, 1000);
 updateTimer();
 
 const timerBar = document.getElementById("timer-bar");
-const faqsSection = document.querySelector(".section-faqs");
+const inscriotonSection = document.querySelector(".section-inscripton");
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -77,7 +77,7 @@ const observer = new IntersectionObserver(
   }
 );
 
-observer.observe(faqsSection);
+observer.observe(inscriotonSection);
 
 const swiper = new Swiper(".swiper", {
   direction: "horizontal",
